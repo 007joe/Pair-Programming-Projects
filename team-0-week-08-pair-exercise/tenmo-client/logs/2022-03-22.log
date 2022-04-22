@@ -1,0 +1,3 @@
+2022-03-22T12:23:17.424144 I/O error on POST request for "http://localhost:8080/register": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2022-03-22T12:23:32.6186593 I/O error on POST request for "http://localhost:8080/register": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2022-03-22T12:23:48.2167217 401 : [no body]

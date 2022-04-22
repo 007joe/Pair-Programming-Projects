@@ -1,0 +1,1 @@
+2022-03-15T00:05:53.7640517 401 : [{"timestamp":"2022-03-15T04:05:53.717+00:00","status":401,"error":"Unauthorized","message":"Full authentication is required to access this resource","path":"/users"}]
