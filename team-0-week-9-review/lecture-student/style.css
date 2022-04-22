@@ -1,0 +1,107 @@
+@font-face {
+    font-family: Roboto;
+    src: url(https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i);
+    }
+    html {
+    font-family: Roboto;
+    }
+
+
+li {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #67923D;
+}
+
+#header {
+    display: flex;
+    width: 100%;
+    flex: wrap;
+    width: 1332px;
+    align-items: center;
+
+}
+
+
+
+a:link { text-decoration: none; 
+color: #67923d}
+a:visited { color: #73078800; }
+
+
+header ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 800px;
+    font-weight: bold;
+    align-items: center;
+    font-size: 1.2rem;
+    color:#67923D;
+    padding-left:0;
+    flex-grow: 1;
+}
+.banner {
+    display: flex;
+    width: 1332px;
+    opacity: 80%;
+    z-index: -1;
+    flex-grow: 1;
+}
+main{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#overlay {
+    margin: auto;
+    position: absolute;
+    top: 25%;
+    z-index: 1;
+    font-size: 2.4rem;
+    font-weight: bold;
+    color:rgb(235, 233, 224);
+  }
+  #button {
+    margin: auto;
+    position: absolute;
+    border-radius: 8px;
+    top: 32%;
+    z-index: 1;
+    font-size: 1.5rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #67923D;
+    color: white;
+    
+  }
+
+  #home-options-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-areas: 
+      "sale finance agent"
+      "footer footer footer";
+      column-gap: 100px;
+      align-items: center;
+      flex-grow: 1;
+  }
+
+  #homes-for-sale {
+      grid-area: sale;
+
+  }
+
+  #get-financing {
+      grid-area: finance;
+
+  }
+
+  #find-an-agent {
+      grid-area: agent;
+
+  }
+
+  footer {
+      grid-area: footer;
+  }
+
+
